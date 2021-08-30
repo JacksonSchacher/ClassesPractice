@@ -1,10 +1,12 @@
 export class Zebra {
     constructor(
         name = '',
-        img = ''
+        img = '',
+        environment = 'plains'
     ) {
         this.name = name;
         this.img = img;
+        this.environment = environment;
     }
     speak() {
         alert(`Yo, what up? My name is ${this.constructor.name}!`)
